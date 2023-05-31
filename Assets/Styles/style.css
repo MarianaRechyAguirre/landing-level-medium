@@ -1,6 +1,8 @@
+@import url("https://fonts.cdnfonts.com/css/circular-std");
 body {
   background-image: url(/Assets/Images/Rectangle\ 4303.jpg);
   background-repeat: no-repeat;
+  font-family: "Circular Std", sans-serif;
 }
 
 header {
@@ -90,6 +92,7 @@ header .navbar .logo {
   font-size: 16px;
   line-height: 20.24px;
   color: #536758;
+  letter-spacing: 1.5px;
 }
 .walls .walls-container .walls-target .walls-title {
   width: 328px;
@@ -123,6 +126,7 @@ header .navbar .logo {
   font-size: 16px;
   line-height: 20.24px;
   color: #ffffff;
+  letter-spacing: 1.5px;
 }
 .walls .walls-container .walls-target-center .walls-title {
   width: 328px;
@@ -167,12 +171,15 @@ header .navbar .logo {
   margin-top: 40px;
   margin-left: 40px;
   color: #536758;
+  font-size: 20px;
+  letter-spacing: 1.5px;
 }
 .gallery .gallery-card .gallery-text {
   width: 560px;
   height: 72px;
   margin-left: 40px;
   color: #939393;
+  font-size: 15px;
 }
 .gallery .gallery-card-rigth {
   width: 640px;
@@ -183,12 +190,15 @@ header .navbar .logo {
   margin-top: 40px;
   margin-left: 40px;
   color: #536758;
+  font-size: 20px;
+  letter-spacing: 1.5px;
 }
 .gallery .gallery-card-rigth .gallery-text {
   width: 560px;
   height: 72px;
   margin-left: 40px;
   color: #939393;
+  font-size: 15px;
 }
 .gallery .gallery-card-rigth .next {
   margin-left: 40px;
@@ -197,4 +207,87 @@ header .navbar .logo {
 .gallery .gallery-card-rigth .next img {
   width: 50px;
   height: 50px;
+}
+
+.dealer {
+  width: 100%;
+  background-color: #2a2a2a;
+}
+.dealer .btn-container .btn-one {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+.dealer .dealer-container {
+  width: 1440px;
+  height: 310px;
+}
+.dealer .dealer-container .dealer-text-container {
+  width: 824px;
+  height: 100px;
+  color: #ffffff;
+  margin-right: 74px;
+}
+.dealer .dealer-container .dealer-text-container .dealer-title {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.dealer .dealer-container .dealer-text-container .dealer-text {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 60%;
+}
+
+.trending {
+  width: 100%;
+  background-color: #536758;
+}
+.trending .trending-top-container {
+  height: 214px;
+  background-color: #536758;
+}
+.trending .trending-top {
+  margin-top: 100px;
+  width: 1312px;
+  height: 50px;
+}
+.trending .trending-top .trending-title {
+  width: 283px;
+  height: 30px;
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+.trending .trending-top .btn-container .btn-one {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+.trending .trending-buttom-container {
+  height: 507px;
+}
+.trending .trending-buttom-container .trending-container {
+  width: 1312px;
+  height: 407px;
+}
+.trending .trending-buttom-container .trending-container .card-one {
+  width: 304px;
+  height: 407px;
+  background-color: antiquewhite;
+}
+.trending .trending-buttom-container .trending-container .card-one .card-top .sale {
+  width: 65px;
+  height: 42px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  background-color: #ffffff;
+  margin-left: 239px;
 }/*# sourceMappingURL=style.css.map */
