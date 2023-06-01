@@ -290,4 +290,56 @@ header .navbar .logo {
   letter-spacing: 1px;
   background-color: #ffffff;
   margin-left: 239px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container {
+  width: 304px;
+  height: 87px;
+  background-color: #ffffff;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-top {
+  width: 304px;
+  height: 44px;
+  background-color: #ffffff;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-top .top {
+  width: 66px;
+  height: 18px;
+  margin-left: 119px;
+  margin-top: 18px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-top .top .title {
+  height: 18px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #536758;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom {
+  width: 304px;
+  height: 43px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .icons-price {
+  width: 185px;
+  height: 43px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .icons-price .label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2B2B2B;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .heart {
+  width: 60px;
+  height: 43px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .heart img {
+  width: 24px;
+  height: 24px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .car {
+  width: 60px;
+  height: 43px;
+}
+.trending .trending-buttom-container .trending-container .card-one .icons-container .icons-buttom .car img {
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=style.css.map */
