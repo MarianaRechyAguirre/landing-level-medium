@@ -6,7 +6,6 @@ $back: #f9f9f9;
 $dark: #2a2a2a;
 $price: #2b2b2b;
 
-
 .detail-header {
   width: 1440px;
   height: 96px;
@@ -25,8 +24,116 @@ $price: #2b2b2b;
 aside {
   width: 266px;
   height: 941px;
-  background-color: aqua;
+  background-color: $letters;
   margin-top: 48px;
+
+  .colors{
+    width: 212px;
+    height: 71px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    span{
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+  }
+
+
+  .price{
+    width: 212px;
+    height: 71px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    span{
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    .rounded{
+      margin-top: 20px;
+    }
+
+  }
+
+  .category-top {
+    width: 176px;
+    height: 268px;
+    margin-bottom: 50px;
+
+    .check {
+      margin-left: 20px;
+      margin-top: 38px;
+      width: 170px;
+      height: 230px;
+
+      span {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 16px;
+      }
+
+      .mycheckbox {
+        margin-bottom: 15px;
+
+        span {
+          margin-left: 15px;
+          font-size: 14px;
+          color: $text;
+          letter-spacing: -0.1px;
+          font-weight: 400;
+        }
+        input {
+          .checkbox {
+            border-radius: 0%;
+            border-color: $text;
+          }
+        }
+      }
+    }
+  }
+
+  .category-center {
+    width: 176px;
+    height: 373px;
+    margin-bottom: 70px;
+
+    .check {
+      margin-left: 20px;
+      margin-top: 38px;
+      width: 170px;
+      height: 230px;
+
+      span {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 16px;
+      }
+
+      .mycheckbox {
+        margin-bottom: 15px;
+
+        span {
+          margin-left: 15px;
+          font-size: 14px;
+          color: $text;
+          letter-spacing: -0.1px;
+          font-weight: 400;
+        }
+        input {
+          .checkbox {
+            border-radius: 0%;
+            border-color: $text;
+          }
+        }
+      }
+    }
+  }
 }
 
 .sort {
@@ -69,7 +176,7 @@ aside {
   background-color: $letters;
   margin-bottom: 80px;
 
-  .index-a{
+  .index-a {
     width: 358px;
     height: 36px;
   }
@@ -130,7 +237,7 @@ aside {
         font-size: 12px;
         font-weight: 400;
         letter-spacing: 1px;
-        color:$letters;
+        color: $letters;
         margin-left: 239px;
         background-color: $mayate;
       }

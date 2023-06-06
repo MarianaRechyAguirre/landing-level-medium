@@ -17,8 +17,95 @@
 aside {
   width: 266px;
   height: 941px;
-  background-color: aqua;
+  background-color: #ffffff;
   margin-top: 48px;
+}
+aside .colors {
+  width: 212px;
+  height: 71px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+aside .colors span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+aside .price {
+  width: 212px;
+  height: 71px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+aside .price span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+aside .price .rounded {
+  margin-top: 20px;
+}
+aside .category-top {
+  width: 176px;
+  height: 268px;
+  margin-bottom: 50px;
+}
+aside .category-top .check {
+  margin-left: 20px;
+  margin-top: 38px;
+  width: 170px;
+  height: 230px;
+}
+aside .category-top .check span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 16px;
+}
+aside .category-top .check .mycheckbox {
+  margin-bottom: 15px;
+}
+aside .category-top .check .mycheckbox span {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #939393;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+}
+aside .category-top .check .mycheckbox input .checkbox {
+  border-radius: 0%;
+  border-color: #939393;
+}
+aside .category-center {
+  width: 176px;
+  height: 373px;
+  margin-bottom: 70px;
+}
+aside .category-center .check {
+  margin-left: 20px;
+  margin-top: 38px;
+  width: 170px;
+  height: 230px;
+}
+aside .category-center .check span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 16px;
+}
+aside .category-center .check .mycheckbox {
+  margin-bottom: 15px;
+}
+aside .category-center .check .mycheckbox span {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #939393;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+}
+aside .category-center .check .mycheckbox input .checkbox {
+  border-radius: 0%;
+  border-color: #939393;
 }
 
 .sort {
@@ -161,6 +248,115 @@ aside {
 .target-container .card-one .icons-container .icons-buttom .car img {
   width: 24px;
   height: 24px;
+}
+
+.card {
+  width: 100%;
+}
+.card .container {
+  width: 1200px;
+  height: 608px;
+  margin-top: 48px;
+  margin-left: 64px;
+  margin-bottom: 80px;
+}
+.card .container .img {
+  width: 650px;
+  height: 450px;
+}
+.card .container .img .frame {
+  margin-left: 588px;
+}
+.card .container .text-container {
+  width: 448px;
+  height: 608px;
+}
+.card .container .text-container .top {
+  font-size: 12px;
+  color: #939393;
+  letter-spacing: 1px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+.card .container .text-container t1 {
+  font-size: 46px;
+  line-height: 46px;
+  letter-spacing: -0.8px;
+  color: #2a2a2a;
+  margin-bottom: 15px;
+}
+.card .container .text-container .price {
+  font-size: 24px;
+  color: #536758;
+  line-height: 10.36px;
+  font-weight: 400;
+  margin-bottom: 29px;
+  margin-top: 15px;
+}
+.card .container .text-container p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #939393;
+}
+.card .container .text-container .additional {
+  width: 448px;
+  height: 59px;
+}
+.card .container .text-container .additional span {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+.card .container .text-container .units {
+  width: 448px;
+  height: 59px;
+}
+.card .container .text-container .units span {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+.card .container .text-container .add {
+  width: 448px;
+  height: 59px;
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
+.card .container .text-container .add .green {
+  width: 382px;
+  height: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #536758;
+  border: none;
+}
+.card .container .text-container .add .heart {
+  width: 50px;
+  height: 50px;
+}
+.card .container .text-container .add .heart img {
+  width: 24px;
+  height: 24px;
+}
+.card .container .text-container .list {
+  margin-top: 35px;
+}
+.card .container .text-container .colors {
+  width: 448px;
+  height: 59px;
+}
+.card .container .text-container .colors .color {
+  width: 212px;
+  height: 71px;
+  margin-bottom: 30px;
+}
+.card .container .text-container .colors span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
 }
 
 .back {
