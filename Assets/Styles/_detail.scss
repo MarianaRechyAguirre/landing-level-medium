@@ -255,6 +255,13 @@ aside {
 
         .top {
           margin-top: 13px;
+
+          a{
+            &:hover{
+              background-color:darkseagreen;
+            }
+          }
+
           .title {
             height: 18px;
             font-size: 14px;

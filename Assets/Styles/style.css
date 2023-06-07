@@ -213,6 +213,9 @@ aside .category-center .check .mycheckbox input .checkbox {
 .target-container .card-one .icons-container .icons-top .top {
   margin-top: 13px;
 }
+.target-container .card-one .icons-container .icons-top .top a:hover {
+  background-color: darkseagreen;
+}
 .target-container .card-one .icons-container .icons-top .top .title {
   height: 18px;
   font-size: 14px;
@@ -360,7 +363,7 @@ aside .category-center .check .mycheckbox input .checkbox {
 }
 
 .back {
-  background-image: url(/Assets/Images/Rectangle\ 4303.jpg);
+  background-image: url(/Assets/Images/Back.jpg);
   background-repeat: no-repeat;
 }
 
@@ -622,6 +625,9 @@ body {
   border-color: #ffffff;
   background-color: transparent;
   border-width: 1px;
+}
+.trending .trending-top .btn-container .btn-one:hover {
+  background-color: #939393;
 }
 .trending .trending-buttom-container {
   height: 507px;

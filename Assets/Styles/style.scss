@@ -11,7 +11,7 @@ $dark: #2a2a2a;
 $price: #2b2b2b;
 
 .back {
-  background-image: url(/Assets/Images/Rectangle\ 4303.jpg);
+  background-image: url(/Assets/Images/Back.jpg);
   background-repeat: no-repeat;
 }
 
@@ -314,6 +314,9 @@ body {
     }
 
     .btn-container {
+
+      
+     
       .btn-one {
         width: 200px;
         height: 50px;
@@ -322,7 +325,12 @@ body {
         border-color: $letters;
         background-color: transparent;
         border-width: 1px;
+
+        &:hover{
+          background-color:#939393;
+        }
       }
+    
     }
   }
 
